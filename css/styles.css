@@ -103,6 +103,7 @@ body{
     color: white;
     text-transform: capitalize;
     font-size: 0.9rem;
+    cursor:pointer;
 }
 .header-btn:hover{
     background-color: #444;
@@ -148,8 +149,12 @@ body{
 .history-btn{
     padding: 10px;
     border-radius: 8px;
+    background: white;
+    cursor: pointer;
 }
-
+.history-btn:hover{
+    background: rgb(226, 226, 226);
+}
 
 /* Feautures */
 
